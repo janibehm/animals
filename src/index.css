@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-family: 'Dosis', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(30, 30, 30);
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+header,
+footer,
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+a {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+a.active {
+  color: orange;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.home_card {
+  height: calc(100vh - 130px);
+}
+.animals {
+  background: url('https://source.unsplash.com/800x900/weekly?elephant') top
+    center/cover;
+}
+.birds {
+  background: url('https://source.unsplash.com/800x900/weekly?peacock') top
+    center/cover;
+}
